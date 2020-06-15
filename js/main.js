@@ -18,11 +18,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     const labels = data.map(function (element) {
+        let listCountry = document.getElementById('listCountry');
+        let listCountryOptions =  e("option", element.country, listCountry);
+        let listYear = document.getElementById('listYear');
+        let listYearOptions =  e("option", element.year, listYear);
         return element.country;
     });
     const datas = data.map(function(element) {
         return element.percent;
     });
+
 
     function displayNewData(country, code, year, percent) {
         addedDatas.push({country: country, code: code, year: year, percent: percent});
