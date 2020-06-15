@@ -13,6 +13,7 @@
     </execution>
   </component>
   <component name="ProjectId" id="1dLi20e9qtq1pLkJ5gUN6gNCxMy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -54,5 +55,9 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="221" y="73" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1592210618281" />
+    <state x="342" y="288" key="git4idea.ui.GitUnstashDialog" timestamp="1592230858963">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="342" y="288" key="git4idea.ui.GitUnstashDialog/0.23.1440.821/-135.-1027.1680.1027@0.23.1440.821" timestamp="1592230858963" />
   </component>
 </project>
