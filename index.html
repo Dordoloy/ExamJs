@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="title">Internet Users</h1>
+    <button id="displayChart" class="buttonStyle">Hide Chart</button>
+    <p>(click on canvas to change color)</p>
+    <canvas id="myChart"></canvas>
+
+    <section id='tools'>
+        <input type="text" placeholder="country" id="country" class="inputStyle">
+        <input type="text" placeholder="code" id="code" class="inputStyle">
+        <input type="number" placeholder="year" id="year" class="inputStyle">
+        <input type="number" placeholder="percent" id="percent" class="inputStyle">
+        <button class="buttonStyle">Add</button>
+    </section>
+
+    <h1>added datas :</h1>
+
+    <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
